@@ -123,6 +123,9 @@ i {
 .bar.active {
     display: flex
 }
+a:link {
+  color: hsl(0, 0%, 100%);
+}
 
 @media screen and (max-width: 375px) {
     body {
