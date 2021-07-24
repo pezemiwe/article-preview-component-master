@@ -10,7 +10,7 @@
 body {
   background-color: hsl(210, 46%, 95%);
   height: 100vh;
-  width: 100vw;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +21,7 @@ body {
   height: 260px;
   width: 700px;
   border-radius: 10px;
+  margin: 40% 5%;
 }
 .image {
   background: url("./images/drawers.jpg");
@@ -127,7 +128,7 @@ a:link {
   color: hsl(0, 0%, 100%);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 800px) {
     body {
         flex-direction: column;
     }
